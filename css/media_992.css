@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+    main {
+        height: 100%;
+    }
+    main .background {
+        background-size: cover;
+    }
+    main .city {
+        background-size: 100%, auto;
+    }
+    main .way {
+        top: 0;
+        background-size: 100%, auto;
+    }
+   
+}

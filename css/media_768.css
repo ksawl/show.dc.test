@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    main {
+        height: 1360px;
+    }
+    main .background {
+        background-size: 1600px, auto;
+    }
+    main .city {
+        background-size: 1400px, auto;
+        height: 337px;
+    }
+    main .way {
+        top: 63px;
+        background-size: 1100px, auto;
+        height: 400px;
+    }
+}
+@media (min-width: 810px) {
+    main .city {
+        background-size: 1600px, auto;
+    }
+    main .way {
+        top: 20px;
+        background-size: 1600px, auto;
+    }
+   
+}
