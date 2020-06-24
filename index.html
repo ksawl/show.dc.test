@@ -18,7 +18,10 @@
 
     <script>
         console.log(location);
-        
+
+        const styles = document.querySelectorAll('link[rel=stylesheet]').forEach(el => {
+            el.href = location.href + el.href.slice(1);
+        });
     </script>
 </head>
 
