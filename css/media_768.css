@@ -11,6 +11,16 @@
     .btn-yellow {
         border: 6px solid #000;
     }
+    .btn-yellow-big {
+        padding: 0 35px;
+        font-size: 35px;
+        line-height: 92px;
+    }
+    .btn-dark-big {
+        padding: 0 35px;
+        font-size: 35px;
+        line-height: 92px;
+    }
     /** */
     nav {
         height: 130px;
@@ -54,6 +64,33 @@
         bottom: 0;
         z-index: 50;
         transform: translate(10%, 30%);
+    }
+    /** */
+    main .slogan {
+        top: 350px;
+        width: 1000px;
+        transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+    }
+    main .slogan h1 {
+        font-size: 138px;
+        line-height: 170px;
+    }
+    main .slogan h2 {
+        font-size: 67px;
+        line-height: 70px;
+    }
+    /** */
+    main .make-bet {
+        top: 670px;
+        transform: translate(-80%, 0);
+        width: 370px;
+    }
+    main .look {
+        bottom: auto;
+        top: 670px;
+        transform: translate(0, 0);
+        width: 370px;
     }
     /** */
     footer {

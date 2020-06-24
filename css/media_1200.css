@@ -6,4 +6,18 @@
     main .car {
         top: 40px;
     }
+    /** */
+    main .slogan {
+        top: 270px;
+        transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+    }
+    main .slogan h1 {
+        font-size: 88px;
+        line-height: 100px;
+    }
+    main .slogan h2 {
+        font-size: 42px;
+        line-height: 40px;
+    }
 }

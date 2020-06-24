@@ -45,6 +45,29 @@
         transform: translate(25%, 35%);
     }
     /** */
+    main .slogan {
+        top: 220px;
+        transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
+            rotateX(-20deg);
+    }
+    main .slogan h1 {
+        font-size: 88px;
+        line-height: 100px;
+    }
+    main .slogan h2 {
+        font-size: 42px;
+        line-height: 40px;
+    }
+    /** */
+    main .make-bet {
+        top: auto;
+        bottom: 100px;
+    }
+    main .look {
+        top: auto;
+        bottom: 120px;
+    }
+    /** */
     footer {
         height: 95px;
     }
