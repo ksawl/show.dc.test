@@ -10,17 +10,17 @@
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto+Mono:wght@200&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/style.css" data-reload="css" />
-    <link rel="stylesheet" href="/css/media.css" data-reload="css" />
-    <link rel="stylesheet" href="/css/media_768.css" data-reload="css" />
-    <link rel="stylesheet" href="/css/media_992.css" data-reload="css" />
-    <link rel="stylesheet" href="/css/media_1200.css" data-reload="css" />
+    <link rel="stylesheet" href="css/style.css" data-reload="css" />
+    <link rel="stylesheet" href="css/media.css" data-reload="css" />
+    <link rel="stylesheet" href="css/media_768.css" data-reload="css" />
+    <link rel="stylesheet" href="css/media_992.css" data-reload="css" />
+    <link rel="stylesheet" href="css/media_1200.css" data-reload="css" />
 
     <script>
         const styles = document.querySelectorAll('link[data-reload=css]').forEach(el => {
             let f = el.href.split('css');
             f.shift();
-            el.href = location.href + 'css' + f.join('css');
+            //el.href = location.href + 'css' + f.join('css');
         });
     </script>
 </head>
