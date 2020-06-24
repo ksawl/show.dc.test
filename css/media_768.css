@@ -1,27 +1,84 @@
 @media (min-width: 768px) {
+    body {
+        height: 1360px;
+    }
+    /** */
+    .btn {
+        padding: 0 42px;
+        line-height: 43px;
+        font-size: 18px;
+    }
+    .btn-yellow {
+        border: 6px solid #000;
+    }
+    /** */
+    nav {
+        height: 130px;
+    }
+    nav .logo {
+        left: 40px;
+        top: 30px;
+        width: 290px;
+        height: 100px;
+    }
+    nav .btn {
+        top: 40px;
+        right: 60px;
+    }
+    /** */
     main {
         height: 1360px;
     }
     main .background {
-        background-size: 1600px, auto;
-    }
-    main .city {
-        background-size: 1400px, auto;
-        height: 337px;
+        background-size: 1900px auto;
     }
     main .way {
         top: 63px;
-        background-size: 1100px, auto;
-        height: 400px;
+        background-size: 1100px auto;
+    }
+    /** */
+    main .car {
+        top: 110px;
+        width: 590px;
+        transform: translate(-55%, 0);
+    }
+    /** */
+    main .rider {
+        top: auto;
+        bottom: 0;
+        z-index: 60;
+        transform: translate(-30%, 30%);
+    }
+    main .dictor {
+        top: auto;
+        bottom: 0;
+        z-index: 50;
+        transform: translate(10%, 30%);
+    }
+    /** */
+    footer {
+        height: 155px;
+    }
+    footer .pay-systems {
+        bottom: 50px;
+    }
+    footer .pay-systems a {
+        margin: 2px 20px;
+    }
+    footer .socials {
+        bottom: 100px;
+    }
+    footer .limit {
+        bottom: 55px;
     }
 }
 @media (min-width: 810px) {
     main .city {
-        background-size: 1600px, auto;
+        background-size: 1600px auto;
     }
     main .way {
         top: 20px;
-        background-size: 1600px, auto;
+        background-size: 1200px auto;
+        background-position: top right;
     }
-   
 }

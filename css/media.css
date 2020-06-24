@@ -1,26 +1,63 @@
-@media (min-width: 380px) {
-    main .way {
-        height: 150px;
+@media (min-width: 425px) {
+    /** */
+    nav .logo {
+        left: 20px;
+    }
+    nav .btn {
+        right: 20px;
     }
 }
 @media (min-width: 460px) {
-    main .city {
-        background-size: 1800px, auto;
-        height: 300px;
+    /** */
+    main .rider {
+        width: 500px;
+        height: 600px;
     }
-    main .way {
-        background-size: 750px, auto;
-        height: 180px;
+    main .dictor {
+        width: 400px;
+        height: 550px;
     }
 }
 @media (min-width: 550px) {
+    /** */
+    nav {
+        height: 100px;
+    }
+    nav .logo {
+        left: 30px;
+        width: 290px;
+        height: 80px;
+    }
+    nav .btn {
+        right: 30px;
+    }
+    /** */
     main .city {
-        background-size: 1600px, auto;
-        height: 320px;
+        background-size: 1700px, auto;
     }
     main .way {
         top: 100px;
         background-size: 950px, auto;
-        height: 230px;
     }
+    /** */
+    main .car {
+        width: 400px;
+    }
+    /** */
+    main .rider {
+        width: 600px;
+        height: 700px;
+    }
+    main .dictor {
+        width: 500px;
+        height: 700px;
+    }
+}
+@media (min-width: 650px) {
+    /** */
+    main .car {
+        top: 120px;
+        width: 500px;
+    }
+   
 }

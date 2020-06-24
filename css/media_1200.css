@@ -1,2 +1,9 @@
 @media (min-width: 1200px) {
+    main .city {
+        background-size: 120% auto;
+    }
+    /** */
+    main .car {
+        top: 40px;
+    }
 }

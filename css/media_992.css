@@ -1,16 +1,77 @@
 @media (min-width: 992px) {
+    /** */
+    body {
+        height: 100%;
+    }
+    /** */
+    nav .logo {
+        left: 80px;
+    }
+    nav .btn {
+        top: 40px;
+        right: 60px;
+    }
+    /** */
     main {
         height: 100%;
     }
     main .background {
-        background-size: cover;
+        background-size: 100% auto;
     }
     main .city {
-        background-size: 100%, auto;
+        background-size: 1400px auto;
+        height: 100%;
     }
     main .way {
         top: 0;
-        background-size: 100%, auto;
+        background-size: 100% auto;
+        height: 100%;
     }
+    /** */
+    main .car {
+        top: 30px;
+        width: 45%;
+        transform: translate(-60%, 0);
+    }
+    /** */
+    main .rider {
+        width: 600px;
+        height: 700px;
+        transform: translate(-30%, 35%);
+    }
+    main .dictor {
+        width: 500px;
+        height: 700px;
+        transform: translate(25%, 35%);
+    }
+    /** */
+    footer {
+        height: 95px;
+    }
+    footer .pay-systems {
+        bottom: 28px;
+        width: 370px;
+    }
+    footer .pay-systems a {
+        margin: 2px 20px;
+    }
+    footer .socials {
+        bottom: 40px;
+        right: 100px;
+    }
+    footer .limit {
+        bottom: 35px;
+        right: 270px;
+    }
+   
+}
+
+@media (min-width: 1000px) {
+    /**
+    main .car {
+        top: 30px;
+        width: 450px;
+        transform: translate(-60%, 0);
+    } */
    
 }
