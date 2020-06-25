@@ -69,6 +69,7 @@ ul li {
 }
 .btn-yellow:hover::before,
 .btn-yellow-big:hover::before,
+.btn-yellow-big.hover::before,
 .btn-dark-big:hover::before {
     left: 130%;
 }
@@ -81,7 +82,8 @@ ul li {
     font-weight: 700;
     line-height: 60px;
 }
-.btn-yellow-big:hover {
+.btn-yellow-big:hover,
+.btn-yellow-big.hover {
     background-color: #e7cc13;
 }
 .btn-dark-big {

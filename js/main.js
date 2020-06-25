@@ -32,14 +32,21 @@ $(document).ready(function () {
 });
 
 window.addEventListener("resize", () => {
-    $('[style]').each(function () {
+    $("[style]").each(function () {
         if (!$(this).hasClass("preload")) {
             $(this).attr("style", "");
         }
-    })
+    });
 });
 window.addEventListener("load", (event) => {
     pageAnim();
+
+    setInterval(() => {
+        document.querySelector(".btn-yellow-big").classList.add("hover");
+        setTimeout(() => {
+            document.querySelector(".btn-yellow-big").classList.remove("hover");
+        }, 1000);
+    }, 10000);
 });
 
 function pageAnim() {
@@ -53,7 +60,7 @@ function pageAnim() {
             "start"
         )
         .fromTo(".preload", 0.5, { opacity: 1 }, { opacity: 0 }, "start+=0.8")
-        .add('startPage')
+        .add("startPage")
         .from(".car", 0.8, { left: "-100%", opacity: 0.5 }, "start+=0.5")
         .from(".slogan", 1, { left: "-100%" }, "start+=1.2")
         .from(".rider", 0.5, { left: "-100%" }, "start+=1")
