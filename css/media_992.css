@@ -94,12 +94,3 @@
         right: 270px;
     }
 }
-
-@media (min-width: 1000px) {
-    /**
-    main .car {
-        top: 30px;
-        width: 450px;
-        transform: translate(-60%, 0);
-    } */
-}
