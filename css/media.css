@@ -59,5 +59,32 @@
         top: 120px;
         width: 500px;
     }
+    /** */
+    main .slogan {
+        top: 300px;
+        width: 800px;
+        transform: translate(-42%, 0) perspective(1200px) rotateY(50deg)
+            rotateX(-20deg);
+        -webkit-transform: translate(-42%, 0) perspective(1200px) rotateY(50deg)
+            rotateX(-20deg);
+        -moz-transform: translate(-42%, 0) perspective(1200px) rotateY(50deg)
+            rotateX(-20deg);
+        -ms-transform: translate(-42%, 0) perspective(1200px) rotateY(50deg)
+            rotateX(-20deg);
+        -o-transform: translate(-42%, 0) perspective(1200px) rotateY(50deg)
+            rotateX(-20deg);
+    }
+    main .slogan h1 {
+        font-size: 100px;
+        line-height: 120px;
+    }
+    main .slogan h2 {
+        font-size: 47px;
+        line-height: 50px;
+    }
+    /** */
+    main .make-bet {
+        top: 500px;
+    }
    
 }
