@@ -1,10 +1,20 @@
 @media (min-width: 1200px) {
+    /** */
     main .city {
         background-size: 120% auto;
     }
     /** */
     main .car {
         top: 40px;
+    }
+}
+@media (min-width: 1440px) {
+    /** */
+    .btn-yellow-big,
+    .btn-dark-big {
+        padding: 0 35px;
+        font-size: 35px;
+        line-height: 92px;
     }
     /** */
     main .slogan {
@@ -20,4 +30,5 @@
         font-size: 42px;
         line-height: 40px;
     }
+   
 }

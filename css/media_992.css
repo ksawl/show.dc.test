@@ -4,6 +4,13 @@
         height: 100%;
     }
     /** */
+    .btn-yellow-big,
+    .btn-dark-big {
+        padding: 0 30px;
+        font-size: 30px;
+        line-height: 72px;
+    }
+    /** */
     nav .logo {
         left: 80px;
     }
@@ -86,7 +93,6 @@
         bottom: 35px;
         right: 270px;
     }
-   
 }
 
 @media (min-width: 1000px) {
@@ -96,5 +102,4 @@
         width: 450px;
         transform: translate(-60%, 0);
     } */
-   
 }

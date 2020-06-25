@@ -11,11 +11,7 @@
     .btn-yellow {
         border: 6px solid #000;
     }
-    .btn-yellow-big {
-        padding: 0 35px;
-        font-size: 35px;
-        line-height: 92px;
-    }
+    .btn-yellow-big,
     .btn-dark-big {
         padding: 0 35px;
         font-size: 35px;
@@ -85,12 +81,16 @@
         top: 670px;
         transform: translate(-80%, 0);
         width: 370px;
+        padding-right: 10px;
+        align-items: flex-end;
     }
     main .look {
         bottom: auto;
         top: 670px;
-        transform: translate(0, 0);
+        transform: translate(20%, 0);
         width: 370px;
+        padding-left: 10px;
+        align-items: flex-start;
     }
     /** */
     footer {

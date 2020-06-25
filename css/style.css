@@ -258,9 +258,16 @@ main .make-bet {
 main .look {
     bottom: 200px;
 }
+main .make-bat-wrap,
+main .look-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 main .make-bet .bonus,
 main .look .bonus {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 60px;
     font-style: italic;
