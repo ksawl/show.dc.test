@@ -30,3 +30,76 @@ $(document).ready(function () {
         });
     });
 });
+
+window.addEventListener("resize", () => {
+    $('[style]').each(function () {
+        if (!$(this).hasClass("preload")) {
+            $(this).attr("style", "");
+        }
+    })
+});
+window.addEventListener("load", (event) => {
+    pageAnim();
+});
+
+function pageAnim() {
+    let tl = new TimelineMax();
+    tl.delay(1)
+        .fromTo(
+            ".preload .inner",
+            1.5,
+            { opacity: 1, scale: 1 },
+            { opacity: 0, rotate: 360, scale: 0 },
+            "start"
+        )
+        .fromTo(".preload", 0.5, { opacity: 1 }, { opacity: 0 }, "start+=0.8")
+        .add('startPage')
+        .from(".car", 0.8, { left: "-100%", opacity: 0.5 }, "start+=0.5")
+        .from(".slogan", 1, { left: "-100%" }, "start+=1.2")
+        .from(".rider", 0.5, { left: "-100%" }, "start+=1")
+        .from(".dictor", 0.5, { right: "-100%" }, "start+=1")
+        .from("nav .logo", 0.5, { left: "-100%" }, "start+=2")
+        .from("nav .btn", 0.5, { right: "-100%" }, "start+=2")
+        .fromTo(
+            ".make-bet .btn",
+            0.5,
+            { scale: 0 },
+            {
+                scale: 1,
+                ease: Bounce.easeOut,
+                onComplete: function () {
+                    $(".preload").hide();
+                },
+            },
+            "start+=2.5"
+        )
+        .fromTo(
+            ".make-bet .bonus",
+            0.5,
+            { opacity: 0, y: -40 },
+            { opacity: 1, y: 0, ease: Power1.easeInOut },
+            "start+=3.5"
+        )
+        .fromTo(
+            ".make-bet .rules",
+            0.5,
+            { opacity: 0, y: -40 },
+            { opacity: 1, y: 0, ease: Power1.easeInOut },
+            "start+=4"
+        )
+        .fromTo(
+            ".look .btn",
+            0.5,
+            { scale: 0 },
+            { scale: 1, ease: Bounce.easeOut },
+            "start+=2.8"
+        )
+        .fromTo(
+            ".look .bonus",
+            0.5,
+            { opacity: 0, y: -40 },
+            { opacity: 1, y: 0, ease: Power1.easeInOut },
+            "start+=3.8"
+        )
+        .from("footer", 0.5, { opacity: 0, bottom: "-100%" }, "start+=3");
+}

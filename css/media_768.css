@@ -47,6 +47,10 @@
         top: 110px;
         width: 590px;
         transform: translate(-55%, 0);
+        -webkit-transform: translate(-55%, 0);
+        -moz-transform: translate(-55%, 0);
+        -ms-transform: translate(-55%, 0);
+        -o-transform: translate(-55%, 0);
     }
     /** */
     main .rider {
@@ -54,18 +58,34 @@
         bottom: 0;
         z-index: 60;
         transform: translate(-30%, 30%);
+        -webkit-transform: translate(-30%, 30%);
+        -moz-transform: translate(-30%, 30%);
+        -ms-transform: translate(-30%, 30%);
+        -o-transform: translate(-30%, 30%);
     }
     main .dictor {
         top: auto;
         bottom: 0;
         z-index: 50;
         transform: translate(10%, 30%);
+        -webkit-transform: translate(10%, 30%);
+        -moz-transform: translate(10%, 30%);
+        -ms-transform: translate(10%, 30%);
+        -o-transform: translate(10%, 30%);
     }
     /** */
     main .slogan {
         top: 350px;
         width: 1000px;
         transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+        -webkit-transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+        -moz-transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+        -ms-transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
+            rotateX(-20deg);
+        -o-transform: translate(-42%, 0) perspective(1300px) rotateY(50deg)
             rotateX(-20deg);
     }
     main .slogan h1 {
@@ -80,6 +100,10 @@
     main .make-bet {
         top: 670px;
         transform: translate(-80%, 0);
+        -webkit-transform: translate(-80%, 0);
+        -moz-transform: translate(-80%, 0);
+        -ms-transform: translate(-80%, 0);
+        -o-transform: translate(-80%, 0);
         width: 370px;
         padding-right: 10px;
         align-items: flex-end;
@@ -88,6 +112,10 @@
         bottom: auto;
         top: 670px;
         transform: translate(20%, 0);
+        -webkit-transform: translate(20%, 0);
+        -moz-transform: translate(20%, 0);
+        -ms-transform: translate(20%, 0);
+        -o-transform: translate(20%, 0);
         width: 370px;
         padding-left: 10px;
         align-items: flex-start;
@@ -110,7 +138,7 @@
     }
 }
 @media (min-width: 810px) {
-    main .city {
+    main .city-inner {
         background-size: 1600px auto;
     }
     main .way {

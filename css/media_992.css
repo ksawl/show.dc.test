@@ -26,8 +26,10 @@
         background-size: 100% auto;
     }
     main .city {
-        background-size: 1400px auto;
         height: 100%;
+    }
+    main .city-inner {
+        background-size: 1400px auto;
     }
     main .way {
         top: 0;
@@ -39,27 +41,47 @@
         top: 30px;
         width: 45%;
         transform: translate(-60%, 0);
+        -webkit-transform: translate(-60%, 0);
+        -moz-transform: translate(-60%, 0);
+        -ms-transform: translate(-60%, 0);
+        -o-transform: translate(-60%, 0);
     }
     /** */
     main .rider {
         width: 600px;
         height: 700px;
         transform: translate(-30%, 35%);
+        -webkit-transform: translate(-30%, 35%);
+        -moz-transform: translate(-30%, 35%);
+        -ms-transform: translate(-30%, 35%);
+        -o-transform: translate(-30%, 35%);
     }
     main .dictor {
         width: 500px;
         height: 700px;
         transform: translate(25%, 35%);
+        -webkit-transform: translate(25%, 35%);
+        -moz-transform: translate(25%, 35%);
+        -ms-transform: translate(25%, 35%);
+        -o-transform: translate(25%, 35%);
     }
     /** */
     main .slogan {
-        top: 220px;
+        top: 200px;
         transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
+            rotateX(-20deg);
+        -webkit-transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
+            rotateX(-20deg);
+        -moz-transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
+            rotateX(-20deg);
+        -ms-transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
+            rotateX(-20deg);
+        -o-transform: translate(-42%, 0) perspective(600px) rotateY(50deg)
             rotateX(-20deg);
     }
     main .slogan h1 {
         font-size: 88px;
-        line-height: 100px;
+        line-height: 120px;
     }
     main .slogan h2 {
         font-size: 42px;
