@@ -32,9 +32,9 @@ $(document).ready(function () {
 });
 
 window.addEventListener("resize", () => {
-    document.querySelector("[style]").forEach((element) => {
-        if (!this.classList.contains("preload")) {
-            this.style = "";
+    document.querySelectorAll("[style]").forEach((el) => {
+        if (!el.classList.contains("preload")) {
+            el.removeAttribute("style");
         }
     });
 });
