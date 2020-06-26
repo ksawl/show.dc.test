@@ -32,9 +32,9 @@ $(document).ready(function () {
 });
 
 window.addEventListener("resize", () => {
-    $("[style]").each(function () {
-        if (!$(this).hasClass("preload")) {
-            $(this).attr("style", "");
+    document.querySelector("[style]").forEach((element) => {
+        if (!this.classList.contains("preload")) {
+            this.style = "";
         }
     });
 });
@@ -75,7 +75,7 @@ function pageAnim() {
                 scale: 1,
                 ease: Bounce.easeOut,
                 onComplete: function () {
-                    $(".preload").hide();
+                    document.querySelector(".preload").style.display = "none";
                 },
             },
             "start+=2.5"
